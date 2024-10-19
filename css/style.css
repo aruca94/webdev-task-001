@@ -1,0 +1,28 @@
+main {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    /* border: 2px dotted blue; */
+    border-bottom: 1px solid purple;
+    padding-top: .94em;
+
+}
+
+li:hover {
+    font-size: 1.5em;
+}
+
+li::after {
+    content: "\A";
+    white-space: pre;
+    display: block;
+}
+
